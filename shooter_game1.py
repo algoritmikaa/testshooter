@@ -50,8 +50,8 @@ class Player(GameSprite):
 
 
 #Создаем окошко
-win_width = 700
-win_height = 500
+win_width = 1700
+win_height = 1500
 display.set_caption("Shooter")
 window = display.set_mode((win_width, win_height))
 background = transform.scale(image.load(img_back), (win_width, win_height))
